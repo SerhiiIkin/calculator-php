@@ -1,0 +1,41 @@
+body {
+    background-color: #142853;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    gap: 0.625rem;
+    flex-direction: column;
+    min-width: 18.75rem;
+    max-width: 18.75rem;
+    align-items: flex-start;
+}
+
+.calc-error {
+    color: red;
+}
+
+.calc-result {
+    color: white;
+}
+
+button {
+    background-color: green;
+}
+
+button,
+input {
+    border: 0;
+    padding: 0.3125rem;
+    border-radius: 0.625rem;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    padding-bottom: 0.625rem;
+}
